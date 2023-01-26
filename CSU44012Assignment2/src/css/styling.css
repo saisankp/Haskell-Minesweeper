@@ -1,0 +1,9 @@
+body{
+  background-image: url('https://media.tenor.com/oQOPWM1CFqYAAAAC/shiba-inu.gif');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 90vh;
+  width:100vw;
+  overflow-x: hidden;
+}

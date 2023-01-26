@@ -1,0 +1,44 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           CSU44012Assignment2
+version:        0.1.0.0
+description:    Assignment 2 (Minesweeper) for Topics in Functional Programming (CSU44012).
+homepage:       https://github.com/saisankp/Haskell-Minesweeper#readme
+bug-reports:    https://github.com/saisankp/Haskell-Minesweeper/issues
+author:         Prathamesh Sai
+maintainer:     saisankp@tcd.ie
+copyright:      2023 Prathamesh Sai
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files: README.md
+
+source-repository head
+  type: git
+  location: https://github.com/saisankp/Haskell-Minesweeper
+
+executable CSU44012Assignment2-exe
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:       Minesweeper
+                       UserInterfaceUtility
+                       Autoplayer
+                       Grid
+                       Lib
+  default-language:    Haskell2010
+  build-depends:
+         base >=4.7 && <5
+       , blaze-html
+       , scotty
+       , JuicyPixels
+       , text
+       , terminal-progress-bar
+       , random
+       , threepenny-gui
+       , vector
+
+
