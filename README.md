@@ -2,6 +2,13 @@
 
 This stack project in Haskell contains an auto-playing implementation of the game minesweeper which uses Threepenny for the user interface. Minesweeper is a single-player logic puzzle; the [basic rules](http://www.freeminesweeper.org/help/minehelpinstructions.html) are simple (wikipedia has a [good description](http://en.wikipedia.org/wiki/Minesweeper_%28video_game%29) as well). The progrm distributes mines randomly around the grid, allow sthe user to uncover and flag mines interactively, and detects an endgame condition. It has an a 'play move' button which *attempts* to play a good, safe, move. [Minesweeper is known to be NP-complete](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm), which means that a well written and efficient solver is difficult but my autoplayer uses 2 advanced tactics which plays a move automtaically if there is an unambiguously safe move available and if a safe move is not available the program will play the least dangerous move available. 
 
+## Demo
+
+
+https://user-images.githubusercontent.com/34750736/214979327-d03715e2-03f9-4d6f-9039-86144d27e991.mp4
+
+
+
 ## How to run
 To run the project, simply go to the top level directory (not src) of this project folder and run these 2 commands:
 
