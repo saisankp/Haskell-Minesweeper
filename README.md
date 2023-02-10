@@ -23,4 +23,4 @@ The Minesweeper implementation will be hosted at http://127.0.0.1:8023 on your l
 ## Documentation
 Documentation can be found in two ways:
 1. In-depth comments dispersed along this project to explain what each function is doing, along with more comments to explain trickier blocks of code.
-3. A PDF file called **"Functional-Minesweeper-Assignment.pdf"** which is in this repo and outlines the high level design choices I made, and also a reflection on the process of designing the program (containing how suitable Haskell was as a language for tackling each phase of the project, what my experience was of the software development process including things like testing and debugging, and what features of the language proved useful). 
+3. A PDF file called **"report.pdf"** which is in this repo and outlines the high level design choices I made, and also a reflection on the process of designing the program (containing how suitable Haskell was as a language for tackling each phase of the project, what my experience was of the software development process including things like testing and debugging, and what features of the language proved useful). 
